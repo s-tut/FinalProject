@@ -13,7 +13,7 @@ struct About: View {
             Spacer()
             Text("About")
                 .foregroundColor(Color(red: 255/255, green: 238/255, blue:187/255))
-                .frame(maxWidth:.infinity,alignment:.leading)
+                .frame(maxWidth:.infinity,alignment:.center)
                 .padding()
                 .font(.largeTitle)
                 .fontWeight(.bold)
